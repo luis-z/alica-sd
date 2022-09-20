@@ -21,24 +21,25 @@
           class="space-top"
         >
         <services />
-        <dots-parallax />    
+        <!-- <dots-parallax />  -->
         </section>
         <section
           id="our-expertise"
           :class="[isTablet ? 'space-top-short' : 'space-top']"
+          style="margin-bottom: 8rem"
         >
           <expertise />
         </section>
-        <section
+        <!-- <section
           id="testimonials"
           :class="[isMobile ? 'space-top-short' : 'space-top']"
         >
           <testimonials />
-        </section>
+        </section> -->
         <section id="case-studies">
           <case-studies />
         </section>
-        <section class="space-top-short" id="call-to-action">
+        <section class="space-top-short" id="contactanos">
           <call-action />
         </section>
         <section class="space-top-short" id="address">
@@ -49,9 +50,9 @@
         <page-nav />
       </hidden>
       <main-footer />
-      <hidden point="mdDown">
+      <!-- <hidden point="mdDown">
         <notification />
-      </hidden>
+      </hidden> -->
     </div>
   </div>
 </template>
@@ -106,15 +107,15 @@ import VideoBanner from '~/components/VideoBanner'
 import About from '~/components/About'
 import Services from '~/components/Services'
 import Expertise from '~/components/Expertise'
-import Testimonials from '~/components/Testimonials'
+// import Testimonials from '~/components/Testimonials'
 import CaseStudies from '~/components/CaseStudies'
 import CallAction from '~/components/CallAction'
 import MapAddress from '~/components/MapAddress'
 import Footer from '~/components/Footer'
 import Hidden from '~/components/Hidden'
 import PageNav from '~/components/PageNav'
-import Notification from '~/components/Notification'
-import DotsParallax from '~/components/Parallax/Dots'
+// import Notification from '~/components/Notification'
+// import DotsParallax from '~/components/Parallax/Dots'
 import brand from '~/static/text/brand'
 // import Promotion from '~/components/Promotion'
 
@@ -122,18 +123,18 @@ export default {
   components: {
     'main-header': Header,
     SquareParallax,
-    DotsParallax,
+    // DotsParallax,
     VideoBanner,
     About,
     Services,
     Expertise,
-    Testimonials,
+    // Testimonials,
     CaseStudies,
     CallAction,
     MapAddress,
     PageNav,
     Hidden,
-    Notification,
+    // Notification,
     // Promotion,
     'main-footer': Footer
   },

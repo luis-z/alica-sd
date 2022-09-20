@@ -1,6 +1,6 @@
 <template>
   <fragment>
-      <svg
+      <!-- <svg
         fill="cccccc"
         width="845px"
         height="1099px"
@@ -15,7 +15,7 @@
         class="background front"
       >
         <use xlink:href="/images/decoration/square-deco-primary.svg#square" />
-      </svg>
+      </svg> -->
       <v-container :class="{ 'fixed-width': mdUp }">
         <div class="root">
           <v-card class="paper">
@@ -28,19 +28,27 @@
                   {{ $t('agencyLanding.cta_subtitle') }}
                 </p>
               </v-col>
+            </v-row>
+            <v-row>
               <v-col cols="12" md="3">
-                <v-row align="center">
-                  <v-btn
-                    large
-                    outlined
-                    color="secondary"
-                    href="/contact"
-                    class="button"
-                  >
-                    {{ $t('agencyLanding.cta_btn') }}
-                    <v-icon class="right-icon">mdi-send</v-icon>
-                  </v-btn>
-                </v-row>
+                <a href="https://www.facebook.com/profile.php?id=100070831746520" target="_blank" style="text-decoration: none;">
+                  <img src="/images/alica-social-fb.png" alt="" width="80%">
+                </a>
+              </v-col>
+              <v-col cols="12" md="3">
+                <a href="https://twitter.com/alicasd_log" target="_blank" style="text-decoration: none;">
+                  <img src="/images/alica-social-tw.png" alt="" width="80%">
+                </a>
+              </v-col>
+              <v-col cols="12" md="3">
+                <a href="https://www.instagram.com/alicasd.log/" target="_blank" style="text-decoration: none;">
+                  <img src="/images/alica-social-ig.png" alt="" width="80%">
+                </a>
+              </v-col>
+              <v-col cols="12" md="3" style="margin-top: -1rem;">
+                <a href="https://walink.co/3470fd" target="_blank" style="text-decoration: none;">
+                  <img src="/images/alica-social-wh.png" alt="" width="80%">
+                </a>
               </v-col>
             </v-row>
           </v-card>

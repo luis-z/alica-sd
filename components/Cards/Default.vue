@@ -10,13 +10,13 @@
       <h6 class="title">{{ title }}</h6>
       <p>{{ desc }}</p>
     </div>
-    <v-btn
+    <!-- <v-btn
       outlined
       block
       color="primary"
       class="button">
       {{ button }}
-    </v-btn>
+    </v-btn> -->
   </v-card>
 </template>
 

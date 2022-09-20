@@ -18,43 +18,27 @@
                     {{ $t('agencyLanding.office_head') }}
                   </h6>
                   <v-row>
-                    <v-col cols="12" sm="6">
+                    <v-col cols="12" sm="12">
                       <v-icon class="icon">mdi-phone</v-icon>
-                      +123 456 78 91
+                      +58 212 2651871 / 1872 / 2673931
+                      <br>
+                      <span style="margin-left: 2.3rem">
+                        +58 424 1399709
+                      </span>
                     </v-col>
-                    <v-col cols="12" sm="6">
+                    <v-col cols="12" sm="12">
                       <v-icon class="icon">mdi-email</v-icon>
-                      hello@luxi.com
+                      info@alica.com.ve
+                      <br>
+                      <span style="margin-left: 2.3rem">
+                        d.rangel@alica.com.ve
+                      </span>
                     </v-col>
                     <v-col cols="12" sm="12">
                       <v-icon class="icon">mdi-map-marker</v-icon>
-                      Lorem ipsum street no.14 Block A
-                    </v-col>
-                  </v-row>
-                </v-card>
-              </u-animate>
-              <u-animate
-                :offset="-50"
-                name="fadeInLeftShort"
-                delay="0.5s"
-                duration="0.3s"
-              >
-                <v-card class="paper">
-                  <h6 class="title">
-                    {{ $t('agencyLanding.office_branch') }}
-                  </h6>
-                  <v-row>
-                    <v-col cols="12" sm="6">
-                      <v-icon class="icon">mdi-phone</v-icon>
-                      +98 765 432 10
-                    </v-col>
-                    <v-col cols="12" sm="6">
-                      <v-icon class="icon">mdi-email</v-icon>
-                      hello@luxi.com
-                    </v-col>
-                    <v-col cols="12" sm="12">
-                      <v-icon class="icon">mdi-map-marker</v-icon>
-                      Lorem ipsum street Block C - Vestibullum Building
+                      Av. Francisco de Miranda, Multicentro
+                      Empresarial del Este, Torre Miranda,
+                      Nucleo A, piso 5, Ofc. A-52. Chacao
                     </v-col>
                   </v-row>
                 </v-card>
@@ -64,19 +48,7 @@
         </v-col>
         <v-col cols="12" md="6" class="pa-6">
           <v-card class="map">
-            <GMap
-              ref="gMap"
-              :cluster="{options: {styles: clusterStyle}}"
-              :center="{lat: locations[0].lat, lng: locations[0].lng}"
-              :options="{fullscreenControl: false}"
-              :zoom="6"
-            >
-              <GMapMarker
-                v-for="location in locations"
-                :key="location.id"
-                :position="{lat: location.lat, lng: location.lng}"
-              />
-            </GMap>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.403440692072!2d-66.85520229841786!3d10.490408804645114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a595859fbfec3%3A0x59894936d2e9473!2sMulticentro%20Empresarial%20del%20Este!5e0!3m2!1ses-419!2sve!4v1663617701291!5m2!1ses-419!2sve" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </v-card>
         </v-col>
       </v-row>

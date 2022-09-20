@@ -11,9 +11,10 @@ $frame-deco: '/images/decoration/frame-deco.png';
     border-radius: 12px;
     box-shadow: 0 1.5px 12px 6px rgba(0, 0, 0, 0.12);
     overflow: hidden;
-    height: 125px;
+    height: 150px;
     margin: spacing(-5, 0, 2);
     img {
+      object-fit: cover;
       height: 100%;
       min-width: 100%
     }

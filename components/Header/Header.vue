@@ -97,7 +97,7 @@
                 </li>
                 <li>
                   <v-btn
-                    :href="link.agency.contact"
+                    href="/#contactanos"
                     text
                   >
                     {{ $t('agencyLanding.header_contact') }}
@@ -105,7 +105,10 @@
                 </li>
               </scrollactive>
             </div>
-            <setting-menu :invert="invert" />
+            <!-- <setting-menu :invert="invert" /> -->
+            <span style="color: green!important">
+              TASA BCV {{bcvRate}}
+            </span>
           </nav>
         </div>
       </v-container>
@@ -122,7 +125,7 @@ import logo from '~/static/images/alica.png'
 import link from '~/static/text/link'
 import brand from '~/static/text/brand'
 import navMenu from './menu'
-import Settings from './Settings'
+// import Settings from './Settings'
 import MobileMenu from './MobileMenu'
 
 let counter = 0
@@ -138,7 +141,7 @@ function createData(name, url, offset) {
 
 export default {
   components: {
-    'setting-menu': Settings,
+    // 'setting-menu': Settings,
     MobileMenu
   },
   props: {
@@ -162,13 +165,22 @@ export default {
         createData(navMenu[1], '#' + navMenu[1]),
         createData(navMenu[2], '#' + navMenu[2]),
         createData(navMenu[3], '#' + navMenu[3], -40)
-      ]
+      ],
+      bcvRate: '666'
     }
   },
   mounted() {
     this.loaded = true
+    this.getBcvRate()
   },
   methods: {
+    async getBcvRate() {
+      let url = 'https://s3.amazonaws.com/dolartoday/data.json'
+      const rates = await this.$axios.$get(url)
+      console.log(rates)
+
+      this.bcvRate = rates.USD.promedio_real
+    },
     handleScroll: function() {
       if (window.scrollY > 80) {
         return (this.fixed = true)

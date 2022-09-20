@@ -34,7 +34,7 @@
         </div>
       </v-container>
     </div>
-    <company-logo />
+    <!-- <company-logo /> -->
   </div>
 </template>
 
@@ -46,14 +46,14 @@
 import imgAPI from '~/static/images/imgAPI'
 import TestimonialCard from '../Cards/Testimonial'
 import TitleIcon from '../Title/WithIcon'
-import CompanyLogo from '../CompanyLogo'
+// import CompanyLogo from '../CompanyLogo'
 import SquareParallax from '../Parallax/SingleSquare'
 
 export default {
   components: {
     TestimonialCard,
     TitleIcon,
-    CompanyLogo,
+    // CompanyLogo,
     SquareParallax,
     Slick: () => import('vue-slick')
   },

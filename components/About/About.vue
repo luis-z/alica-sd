@@ -20,15 +20,21 @@
         </v-col>
         <v-col cols="12" md="7" class="pa-6">
           <h4 class="title-default use-text-subtitle">
+            Somos una compañía de referencia en el transporte nacional e
+internacional.
+<br>
+<br>
+Proveemos soluciones logísticas a nuestros clientes
+importadores y exportadores del sector industrial y empresarial.
+          </h4>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12" md="12" class="pa-6" style="margin-top: 15em;">
+          <h4 class="title-default use-text-subtitle">
             {{ $t('agencyLanding.about_subtitle') }}
           </h4>
-          <!-- <promotion /> -->
-          <!-- <blockquote>
-            {{ $t('agencyLanding.about_quote') }}
-          </blockquote> -->
-          <promotion />
-        </v-col>
-        <v-col cols="9" style="margin-top: 9rem">
+          <services />
         </v-col>
       </v-row>
     </v-container>
@@ -42,14 +48,16 @@
 
 <script>
 // import Counter from '../Counter'
-import Promotion from '../Promotion/Promotion.vue'
+// import Promotion from '../Promotion/Promotion.vue'
 import TitleDeco from '../Title/WithDecoration'
+import Services from '~/components/Services2'
 
 export default {
   components: {
     // Counter,
     TitleDeco,
-    Promotion
+    // Promotion,
+    Services
   },
   computed: {
     isDesktop() {

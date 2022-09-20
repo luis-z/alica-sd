@@ -20,7 +20,7 @@
               >
                 <div class="side-filter">
                   <h4 class="title-primary">
-                    {{ $t('agencyLanding.case_title') }}
+                    Casos de Éxito
                   </h4>
                   <v-list class="nav">
                     <v-list-item-group v-model="item" color="primary">
@@ -124,7 +124,7 @@
 </style>
 
 <script>
-import imgApi from '~/static/images/imgAPI'
+// import imgApi from '~/static/images/imgAPI'
 import CaseCard from '../Cards/Case'
 
 export default {
@@ -138,61 +138,69 @@ export default {
       loaded: false,
       item: 0,
       categories: [
-        'corporate',
-        'advertising',
-        'marketing',
-        'government',
-        'creative'
+        // 'corporate',
+        // 'advertising',
+        // 'marketing',
+        // 'government',
+        // 'creative'
       ],
       caseData: [
         {
-          bg: imgApi.agency[5],
-          logo: '/images/logos/mobile.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
+          bg: '/images/agenciamiento-aduanas.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
           size: 'small'
         },
         {
-          logo: '/images/logos/coin.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
+          bg: '/images/puerta-puerta.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
           size: 'small',
           simple: true
         },
         {
-          logo: '/images/logos/starter.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
-          size: 'medium',
-          simple: true
-        },
-        {
-          bg: imgApi.agency[6],
-          logo: '/images/logos/profile.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
+          bg: '/images/importacion.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
           size: 'medium'
         },
         {
-          bg: imgApi.agency[7],
-          logo: '/images/logos/architect.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
+          bg: '/images/seguro.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
           size: 'medium'
         },
         {
-          bg: imgApi.agency[8],
-          logo: '/images/logos/fashion.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
+          bg: '/images/radioactive.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
           size: 'big'
         },
         {
-          bg: imgApi.agency[9],
-          logo: '/images/logos/cloud.png',
-          title: 'Donec commodo convallis ligula',
-          desc: 'Vestibulum consequat hendrerit',
+          bg: '/images/radioactive2.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
           size: 'big'
+        },
+        {
+          bg: '/images/radioactive3.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
+          size: 'big'
+        },
+        {
+          bg: '/images/flete-terrestre.jpeg',
+          logo: '/images/alica.png',
+          title: '',
+          desc: '',
+          size: 'medium'
         }
       ]
     }

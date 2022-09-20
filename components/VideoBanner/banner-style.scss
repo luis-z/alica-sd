@@ -227,3 +227,18 @@
     color: $palette-primary-main
   }
 }
+
+.socmed {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $spacing4;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  button {
+    width: 20px;
+    height: 20px;
+  }
+  .icon {
+    font-size: 30px
+  }
+}

@@ -55,25 +55,18 @@
         </v-expansion-panels>
         <v-row justify="space-around" v-if="isDesktop">
           <v-col
-            v-for="(footer, index) in footers"
-            :key="index"
-            sm="3"
+            sm="12"
             cols="12"     
             class="px-lg-4 px-0 site-map-item"
           >
-            <h6 class="title-nav">
-              {{ footer.title }}
-            </h6>
-            <ul>
-              <li
-                v-for="(item, index) in footer.description"
-                :key="index"
-              >
-                <nuxt-link :to="footer.link[index]">
-                  {{ item }}
-                </nuxt-link>
-              </li>
-            </ul>
+          <p style="font-weight: 200;">
+            Estimados Clientes, los tiempos de tránsitos se verán afectados por las diferentes colas en las Fronteras. Agradecemos su comprensión.
+  <br>
+  <br>
+  Dear Customers, the transit times will be affected by the different queues at the Borders. We appreciate your understanding.
+          </p>
+
+
           </v-col>
         </v-row>
       </v-col>
@@ -83,36 +76,35 @@
         class="pa-4"
       >
         <div class="socmed">
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-facebook icon" />
-          </v-btn>
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-twitter  icon" />
-          </v-btn>
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-instagram icon" />
-          </v-btn>
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-linkedin icon" />
-          </v-btn>
+          <a href="https://www.facebook.com/profile.php?id=100070831746520" target="_blank" style="text-decoration: none;">
+            <v-btn
+              text
+              icon
+              class="button"
+            >
+              <span class="ion-logo-facebook icon" />
+            </v-btn>
+          </a>
+          <a href="https://twitter.com/alicasd_log" target="_blank" style="text-decoration: none;">
+            <v-btn
+              text
+              icon
+              class="button"
+            >
+              <span class="ion-logo-twitter  icon" />
+            </v-btn>
+          </a>
+          <a href="https://www.instagram.com/alicasd.log/" target="_blank" style="text-decoration: none;">
+            <v-btn
+              text
+              icon
+              class="button"
+            >
+              <span class="ion-logo-instagram icon" />
+            </v-btn>
+          </a>
         </div>
-        <v-select
+        <!-- <v-select
           :items="langList"
           :value="lang"
           v-model="lang"
@@ -121,7 +113,7 @@
           class="select-lang"
           prepend-inner-icon="mdi-web"
           @change="switchLang(lang)"
-        />
+        /> -->
       </v-col>
     </v-row>
     <p class="body-2 text-center" v-if="isMobile">

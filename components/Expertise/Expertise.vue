@@ -78,10 +78,12 @@
             md="8"
           >
             <h4 class="title-default use-text-subtitle">
-              {{ $t('agencyLanding.expertise_subtitle') }}
+              Nuestro equipo esta para atender sus requerimientos logísticos
             </h4>
             <p class="desc use-text-paragraph">
-              {{ $t('agencyLanding.expertise_paragraph') }}
+              Nos encargamos de la Logística Internacional para cargas de Importación y Exportación.
+              <br>
+              Le brindamos asesoria y contizaciones en nuestras areas de experticia:
             </p>
             <hidden point="xsDown">
               <div class="running-tag" v-if="loaded">
@@ -143,15 +145,9 @@ export default {
         vertical: true
       },
       expertiseList: [
-        ['social media', 'marketing', 'SEO'],
-        ['Web Development', 'UI Designs', 'Mobile Apps'],
-        ['Photography', 'Company Profile', 'Visual Editing'],
-        ['social media', 'marketing', 'SEO'],
-        ['Web Development', 'UI Designs', 'Mobile Apps'],
-        ['Photography', 'Company Profile', 'Visual Editing'],
-        ['social media', 'marketing', 'SEO'],
-        ['Web Development', 'UI Designs', 'Mobile Apps'],
-        ['Photography', 'Company Profile', 'Visual Editing']
+        ['Importación', 'Exportación', 'Marítimas', 'Aéreas'],
+        ['Cargas Consolidadas', 'Agenciamiento de Aduana', 'Seguro de Carga'],
+        ['Flete Terrestre Nacional', 'Puerta a Puerta', 'MIAMI-VZLA']
       ]
     }
   },
