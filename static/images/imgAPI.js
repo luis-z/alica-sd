@@ -41,9 +41,9 @@ const imgAPI = {
     'https://via.placeholder.com/711x693/52596b/FFFFFF'
   ],
   crypto: [
-    '/images/crypto/hexa-orange.png',
-    '/images/crypto/hexa-green.png',
-    '/images/crypto/hexa-orange.png',
+    '/images/images/goal.png',
+    '/images/images/idea.png',
+    '/images/images/value.png',
     '/images/crypto/hexa-green.png',
     'https://via.placeholder.com/600x341/cac142/FFFFFF',
     'https://via.placeholder.com/1280x677/204473/FFFFFF',

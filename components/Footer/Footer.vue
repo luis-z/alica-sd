@@ -24,104 +24,31 @@
         </p>
       </v-col>
       <v-col
-        class="pa-6"
-        md="6"
+        md="9"
         cols="12"
       >
-        <v-expansion-panels v-if="isMobile" class="accordion-root">
-          <v-expansion-panel
-            v-for="(footer, index) in footers"
-            :key="index"
-            class="accordion-content"
-          >
-            <v-expansion-panel-header>
-              <h6 class="title mb-4">
-                {{ footer.title }}
-              </h6>
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <ul>
-                <li
-                  v-for="(item, index) in footer.description"
-                  :key="index"
-                >
-                  <nuxt-link :to="footer.link[index]">
-                    {{ item }}
-                  </nuxt-link>
-                </li>
-              </ul>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-        <v-row justify="space-around" v-if="isDesktop">
-          <v-col
-            v-for="(footer, index) in footers"
-            :key="index"
-            sm="3"
-            cols="12"     
-            class="px-lg-4 px-0 site-map-item"
-          >
-            <h6 class="title-nav">
-              {{ footer.title }}
-            </h6>
-            <ul>
-              <li
-                v-for="(item, index) in footer.description"
-                :key="index"
-              >
-                <nuxt-link :to="footer.link[index]">
-                  {{ item }}
-                </nuxt-link>
-              </li>
-            </ul>
-          </v-col>
-        </v-row>
-      </v-col>
-      <v-col
-        md="3"
-        cols="12"
-        class="pa-4"
-      >
-        <div class="socmed">
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-facebook icon" />
-          </v-btn>
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-twitter  icon" />
-          </v-btn>
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-instagram icon" />
-          </v-btn>
-          <v-btn
-            text
-            icon
-            class="button"
-          >
-            <span class="ion-logo-linkedin icon" />
-          </v-btn>
-        </div>
-        <v-select
-          :items="langList"
-          :value="lang"
-          v-model="lang"
-          label=""
-          outlined
-          class="select-lang"
-          prepend-inner-icon="mdi-web"
-          @change="switchLang(lang)"
-        />
+      <v-row style="margin-top: 4rem">
+        <v-col cols="12" md="3">
+          <a href="https://www.facebook.com/profile.php?id=100070831746520" target="_blank" style="text-decoration: none;">
+            <img src="/images/images/alica-social-fb.png" alt="" width="80%">
+          </a>
+        </v-col>
+        <v-col cols="12" md="3">
+          <a href="https://twitter.com/alicasd_log" target="_blank" style="text-decoration: none;">
+            <img src="/images/images/alica-social-tw.png" alt="" width="80%">
+          </a>
+        </v-col>
+        <v-col cols="12" md="3">
+          <a href="https://www.instagram.com/alicasd.log/" target="_blank" style="text-decoration: none;">
+            <img src="/images/images/alica-social-ig.png" alt="" width="80%">
+          </a>
+        </v-col>
+        <v-col cols="12" md="3" style="margin-top: -0.6rem;">
+          <a href="https://walink.co/3470fd" target="_blank" style="text-decoration: none;">
+            <img src="/images/images/alica-social-wh.png" alt="" width="80%">
+          </a>
+        </v-col>
+      </v-row>
       </v-col>
     </v-row>
     <p class="body-2 text-center" v-if="isMobile">

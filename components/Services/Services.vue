@@ -70,7 +70,7 @@
 </style>
 
 <script>
-import imgApi from '~/static/images/imgAPI'
+// import imgApi from '~/static/images/imgAPI'
 import Card from '../Cards/Default'
 import TitleIcon from '../Title/WithIcon'
 
@@ -108,40 +108,30 @@ export default {
       },
       servicesList: [
         {
-          title: 'Lorem Ipsum',
-          desc:
-            'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
-          img: imgApi.agency[2]
+          title: 'Agenciamiento de Aduana',
+          desc: '',
+          img: '/images/images/agenciamiento-aduanas.jpeg'
         },
         {
-          title: 'Etiam rhoncus',
+          title: 'Importación y Exportación',
           desc:
-            'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
-          img: imgApi.agency[3]
+            'Para cargas contenerizadas y cargas consolidadas / Marítimas y Aérea',
+          img: '/images/images/importacion.jpeg'
         },
         {
-          title: 'Duis fermentum',
-          desc:
-            'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
-          img: imgApi.agency[4]
+          title: 'Flete Terrestre a nivel Nacional',
+          desc: '',
+          img: '/images/images/flete-terrestre.jpeg'
         },
         {
-          title: 'Lorem Ipsum',
-          desc:
-            'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
-          img: imgApi.agency[2]
+          title: 'Seguro de carga.',
+          desc: '',
+          img: '/images/images/seguro.jpeg'
         },
         {
-          title: 'Etiam rhoncus',
-          desc:
-            'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
-          img: imgApi.agency[3]
-        },
-        {
-          title: 'Duis fermentum',
-          desc:
-            'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
-          img: imgApi.agency[4]
+          title: 'Envíos puerta a puerta desde MIAMI-VNZLA',
+          desc: '',
+          img: '/images/images/puerta-puerta.jpeg'
         }
       ]
     }

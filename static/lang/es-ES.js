@@ -45,30 +45,29 @@ export default () => {
         header_light: 'Claro',
         banner_title: 'ALICA SD ASESORES LOGISTICOS INTERNACINALES C.A.',
         banner_subtitle:
-          'Somos una compañía de referencia en el transporte nacional e internacional. Proveemos soluciones logísticas a nuestros clientes importadores y exportadores del sector industrial y empresarial.',
+          '¡Logística Sin Fronteras!',
         banner_button: 'Escribenos',
         about_title: 'Nosotros',
         about_subtitle:
-          'NUESTRA FILOSOFÍA COMO EMPRESA DE TRANSPORTE INTERNACIONAL',
+          'Nuestra filosofía como empresa de transporte internacional',
         about_employee: 'Misión',
         about_projects: 'Visión',
         about_client: '',
         about_quote:
-          "Nuestro valores",
+          "Somos una compañía de referencia en el transporte nacional e internacional. Proveemos soluciones logísticas a nuestros clientes importadores y exportadores del sector industrial y empresarial.",
         services_title: 'Servicios',
         services_button: 'detalles',
         expertise_title: 'Experiencia',
         expertise_subtitle:
-          'A successful project is built with a successful team.',
+          'Nuestro equipo esta para atender sus requerimientos logísticos',
         expertise_paragraph:
-          'Which is why we provide you with the human resources you need to build whenever you need them. Our on_shoring & near offshoring teams are trained and supervised as part of Us. Your team is dedicated to your projects. And the team is flexible!',
-        testimonial_title: 'Testimonios de los clientes',
-        case_title: 'Casos de estudio',
+          'Nos encargamos de la Logística Internacional para cargas de Importación y Exportación. Le brindamos asesoria y cotizaciones en nuestras areas de experticia:',
+        case_title: 'Testimonios',
         cta_title: '¿Listos para empezar?',
         cta_subtitle: 'El mejor equipo de asesores no nace instantáneamente, se hace...',
         cta_btn: 'contactanos',
-        office_title: 'Nuestras oficinas',
-        office_head: 'Oficina central',
+        office_title: 'Nuestra oficina',
+        office_head: 'Datos de contacto',
         office_branch: 'Sedes',
         footer_paragraph:
           'Llevamos casi una década en el negocio. Ayudarte es nuestra máxima prioridad.'

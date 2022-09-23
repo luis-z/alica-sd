@@ -33,7 +33,7 @@
           id="testimonials"
           :class="[isMobile ? 'space-top-short' : 'space-top']"
         >
-          <testimonials />
+          <!-- <testimonials /> -->
         </section>
         <section id="case-studies">
           <case-studies />
@@ -106,7 +106,7 @@ import VideoBanner from '~/components/VideoBanner'
 import About from '~/components/About'
 import Services from '~/components/Services'
 import Expertise from '~/components/Expertise'
-import Testimonials from '~/components/Testimonials'
+// import Testimonials from '~/components/Testimonials'
 import CaseStudies from '~/components/CaseStudies'
 import CallAction from '~/components/CallAction'
 import MapAddress from '~/components/MapAddress'
@@ -127,7 +127,7 @@ export default {
     About,
     Services,
     Expertise,
-    Testimonials,
+    // Testimonials,
     CaseStudies,
     CallAction,
     MapAddress,

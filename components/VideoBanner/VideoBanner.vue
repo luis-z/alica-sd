@@ -20,15 +20,17 @@
             <h5 class="subtitle use-text-subtitle">
               {{ $t('agencyLanding.banner_subtitle') }}
             </h5>
-            <v-btn
-              outlined
-              large
-              color="secondary"
-              class="button"
-            >
-              {{ $t('agencyLanding.banner_button') }}
-              <v-icon class="icon">mdi-send</v-icon>
-            </v-btn>
+            <a href="https://walink.co/3470fd" target="_blank" style="text-decoration: none;">
+              <v-btn
+                outlined
+                large
+                color="secondary"
+                class="button"
+              >
+                {{ $t('agencyLanding.banner_button') }}
+                <v-icon class="icon">mdi-send</v-icon>
+              </v-btn>
+            </a>
           </div>
         </v-col>
         <v-col

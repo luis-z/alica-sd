@@ -88,3 +88,10 @@
   top: 90px;
   @include left(90px)
 }
+p {
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: $spacing3;
+  font-size: 21px;
+  text-align: justify;
+}

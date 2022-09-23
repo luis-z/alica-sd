@@ -30,16 +30,17 @@
               </v-col>
               <v-col cols="12" md="3">
                 <v-row align="center">
-                  <v-btn
-                    large
-                    outlined
-                    color="secondary"
-                    href="/contact"
-                    class="button"
-                  >
-                    {{ $t('agencyLanding.cta_btn') }}
-                    <v-icon class="right-icon">mdi-send</v-icon>
-                  </v-btn>
+                  <a href="https://walink.co/3470fd" target="_blank" style="text-decoration: none;">
+                    <v-btn
+                      outlined
+                      large
+                      color="secondary"
+                      class="button"
+                    >
+                      {{ $t('agencyLanding.banner_button') }}
+                      <v-icon style="margin-left: 1rem" class="icon">mdi-send</v-icon>
+                    </v-btn>
+                  </a>
                 </v-row>
               </v-col>
             </v-row>

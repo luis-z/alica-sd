@@ -22,13 +22,14 @@
           <h4 class="title-default use-text-subtitle">
             {{ $t('agencyLanding.about_subtitle') }}
           </h4>
-          <!-- <promotion /> -->
-          <!-- <blockquote>
+          <p style="margin-top: 1rem">
             {{ $t('agencyLanding.about_quote') }}
-          </blockquote> -->
-          <promotion />
+          </p>
         </v-col>
-        <v-col cols="9" style="margin-top: 9rem">
+      </v-row>
+      <v-row style="margin-top: 9rem">
+        <v-col cols="12">
+          <promotion />
         </v-col>
       </v-row>
     </v-container>

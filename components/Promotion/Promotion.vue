@@ -45,16 +45,7 @@
                     {{ content[Math.abs(currentImg) % content.length].title }}
                   </v-btn>
                 </h1>
-                <p>{{ content[Math.abs(currentImg) % content.length].desc }}</p>
-                <section class="time">
-                  <h6 class="use-text-caption">
-                    <span>
-                      {{ $t('cryptoLanding.promo_periode') }}
-                      :&nbsp;
-                      {{ content[Math.abs(currentImg) % content.length].date }}
-                    </span>
-                  </h6>
-                </section>
+                <p v-html="content[Math.abs(currentImg) % content.length].desc"></p>
               </v-card>
             </v-col>
           </v-row>
@@ -89,31 +80,27 @@ import Hidden from '../Hidden'
 const sliderData = [
   {
     image: imgAPI.crypto[0],
-    title: 'Sed imperdiet enim ligula',
+    title: 'Misión',
     desc:
-      'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
+      'Siendo una empresa de transporte nacional e internacional, nuestra misión es proveer soluciones logísticas altamente especializadas a todos nuestros clientes importadores y exportadores del sector industrial y empresarial.'
   },
   {
     image: imgAPI.crypto[1],
-    title: 'Fusce placerat enim et odio',
+    title: 'Visión ',
     desc:
-      'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
+      'Ser considerada como compañía de referencia en nuestro campo, convirtiéndonos en el mejor aliado estratégico para nuestros clientes.'
   },
   {
     image: imgAPI.crypto[2],
-    title: 'Pellentesque ac bibendum tortor',
-    desc:
-      'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
-  },
-  {
-    image: imgAPI.crypto[3],
-    title: 'Pellentesque ac bibendum tortor',
-    desc:
-      'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
+    title: 'Valores',
+    desc: `
+      <ul>
+        <li>Orientación al cliente: Comprender las necesidades y superar las expectativas específicas de cada cliente, transformándolas en soluciones satisfactorias.</li>
+        <li>Innovación: desarrollando soluciones creativas y pioneras mejorando continuamente.</li>
+        <li>Compromiso de resultados: cuidando cada acción y rentabilizarla para las partes interesadas.</li>
+        <li>Responsabilidad Social Corporativa: respaldar y promover todas aquellas acciones que impliquen mejora social.</li>
+      </ul>
+    `
   }
 ]
 

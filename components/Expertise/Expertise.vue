@@ -143,15 +143,9 @@ export default {
         vertical: true
       },
       expertiseList: [
-        ['social media', 'marketing', 'SEO'],
-        ['Web Development', 'UI Designs', 'Mobile Apps'],
-        ['Photography', 'Company Profile', 'Visual Editing'],
-        ['social media', 'marketing', 'SEO'],
-        ['Web Development', 'UI Designs', 'Mobile Apps'],
-        ['Photography', 'Company Profile', 'Visual Editing'],
-        ['social media', 'marketing', 'SEO'],
-        ['Web Development', 'UI Designs', 'Mobile Apps'],
-        ['Photography', 'Company Profile', 'Visual Editing']
+        ['Importación', 'Exportación', 'Marítimas', 'Aéreas'],
+        ['Cargas Consolidadas', 'Agenciamiento de Aduana', 'Seguro de Carga'],
+        ['Flete Terrestre Nacional', 'Puerta a Puerta', 'MIAMI-VZLA']
       ]
     }
   },
