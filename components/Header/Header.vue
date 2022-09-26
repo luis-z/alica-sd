@@ -9,7 +9,11 @@
     >
       <mobile-menu :open="openDrawer" />
     </v-navigation-drawer>
+
+    <market-price />
+
     <v-app-bar
+      style="margin-top: 2.5rem"
       v-scroll="handleScroll"
       id="header"
       :class="{ fixed: fixed, 'open-drawer': openDrawer }"
@@ -124,6 +128,7 @@ import brand from '~/static/text/brand'
 import navMenu from './menu'
 import Settings from './Settings'
 import MobileMenu from './MobileMenu'
+import MarketPrice from './MarketPrice'
 
 let counter = 0
 function createData(name, url, offset) {
@@ -139,7 +144,8 @@ function createData(name, url, offset) {
 export default {
   components: {
     'setting-menu': Settings,
-    MobileMenu
+    MobileMenu,
+    MarketPrice
   },
   props: {
     invert: {
