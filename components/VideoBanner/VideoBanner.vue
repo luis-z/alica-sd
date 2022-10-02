@@ -17,7 +17,7 @@
                 {{ $t('agencyLanding.banner_title') }}
               </h3>
             </div>
-            <h5 class="subtitle use-text-subtitle">
+            <h5 class="subtitle use-text-subtitle" style="font-family: Cursive;">
               {{ $t('agencyLanding.banner_subtitle') }}
             </h5>
             <a href="https://walink.co/3470fd" target="_blank" style="text-decoration: none;">

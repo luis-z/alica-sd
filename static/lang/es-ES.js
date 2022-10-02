@@ -38,7 +38,7 @@ export default () => {
         header_testimonials: 'Testimonios',
         'header_case-studies': 'Testimonios',
         header_our_office: 'our office',
-        header_contact: 'Contantos',
+        header_contact: 'Contacto',
         header_language: 'Lenguaje',
         header_theme: 'Mode del tema',
         header_dark: 'Oscuro',
@@ -61,7 +61,7 @@ export default () => {
         expertise_subtitle:
           'Nuestro equipo esta para atender sus requerimientos logísticos',
         expertise_paragraph:
-          'Nos encargamos de la Logística Internacional para cargas de Importación y Exportación. Le brindamos asesoria y cotizaciones en nuestras areas de experticia:',
+          'Nos encargamos de la Logística Internacional para cargas de Importación y Exportación. Le brindamos asesoria y cotizaciones en nuestras áreas de experticia:',
         case_title: 'Testimonios',
         cta_title: '¿Listos para empezar?',
         cta_subtitle: 'El mejor equipo de asesores no nace instantáneamente, se hace...',

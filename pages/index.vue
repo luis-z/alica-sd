@@ -49,9 +49,9 @@
         <page-nav />
       </hidden>
       <main-footer />
-      <hidden point="mdDown">
+      <!-- <hidden point="mdDown">
         <notification />
-      </hidden>
+      </hidden> -->
     </div>
   </div>
 </template>
@@ -113,7 +113,7 @@ import MapAddress from '~/components/MapAddress'
 import Footer from '~/components/Footer'
 import Hidden from '~/components/Hidden'
 import PageNav from '~/components/PageNav'
-import Notification from '~/components/Notification'
+// import Notification from '~/components/Notification'
 import DotsParallax from '~/components/Parallax/Dots'
 import brand from '~/static/text/brand'
 // import Promotion from '~/components/Promotion'
@@ -133,7 +133,7 @@ export default {
     MapAddress,
     PageNav,
     Hidden,
-    Notification,
+    // Notification,
     // Promotion,
     'main-footer': Footer
   },

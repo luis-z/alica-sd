@@ -6,7 +6,7 @@
         :key="index"
         class="item"
       >
-        <div class="coin" style="font-size: 20px; font-weight: 800">
+        <div class="coin" style="font-size: 20px; font-weight: 300">
           <!-- <v-avatar class="logo" height="20" width="20" min-width="20">
             <img :src="item.logo" :alt="item.name" /> 
           </v-avatar> -->
@@ -73,12 +73,18 @@ export default {
   },
   methods: {
     async getBcvRate() {
-      let url = 'https://s3.amazonaws.com/dolartoday/data.json'
+      // let url = 'https://s3.amazonaws.com/dolartoday/data.json'
+      // const rates = await this.$axios.$get(url)
+      let url = 'https://alica.com.ve/test.php'
       const rates = await this.$axios.$get(url)
       console.log(rates)
 
-      this.marketList[0].price = rates.USD.promedio_real
-      this.marketList[1].price = rates.EUR.promedio_real
+      this.marketList[0].price = parseFloat(
+        rates.USD.replace(',', '.')
+      ).toFixed(2)
+      this.marketList[1].price = parseFloat(
+        rates.EUR.replace(',', '.')
+      ).toFixed(2)
     }
   }
 }

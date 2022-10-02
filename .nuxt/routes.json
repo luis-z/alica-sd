@@ -3,147 +3,126 @@
     "name": "index___ar",
     "path": "/ar",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   },
   {
     "name": "blank-page___es",
     "path": "/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___es",
     "path": "/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "index___de",
     "path": "/de",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   },
   {
     "name": "index___en",
     "path": "/en",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   },
   {
     "name": "index___id",
     "path": "/id",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   },
   {
     "name": "index___pt",
     "path": "/pt",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   },
   {
     "name": "index___zh",
     "path": "/zh",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   },
   {
     "name": "blank-page___ar",
     "path": "/ar/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___ar",
     "path": "/ar/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "blank-page___de",
     "path": "/de/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___de",
     "path": "/de/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "blank-page___en",
     "path": "/en/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___en",
     "path": "/en/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "blank-page___id",
     "path": "/id/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___id",
     "path": "/id/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "blank-page___pt",
     "path": "/pt/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___pt",
     "path": "/pt/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "blank-page___zh",
     "path": "/zh/blank-page",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/blank-page.vue",
-    "chunkName": "pages/blank-page",
-    "_name": "_5bf61773"
+    "chunkName": "pages/blank-page"
   },
   {
     "name": "contact___zh",
     "path": "/zh/contact",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_7f19c225"
+    "chunkName": "pages/contact"
   },
   {
     "name": "index___es",
     "path": "/",
     "component": "/Users/luiszambrano/projects/alica-sd/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b80bd5d2"
+    "chunkName": "pages/index"
   }
 ]

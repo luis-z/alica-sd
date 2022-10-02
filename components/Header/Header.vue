@@ -101,7 +101,7 @@
                 </li>
                 <li>
                   <v-btn
-                    :href="link.agency.contact"
+                    href="#address"
                     text
                   >
                     {{ $t('agencyLanding.header_contact') }}
