@@ -147,7 +147,7 @@ export default {
   },
   head() {
     return {
-      title: brand.agency.name + ' - Home Page'
+      title: brand.agency.name + ' - Página de inicio'
     }
   }
 }

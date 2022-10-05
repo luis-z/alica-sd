@@ -7,7 +7,7 @@ const brand = {
     footerText: 'Asesores Logícos Internacionales, C.A. - 2022',
     logoText: 'Alica SD J-501200432',
     projectName: 'Alica SD J-501200432',
-    url: 'veluxi.ux-maestro.com/agency',
+    // url: 'veluxi.ux-maestro.com/agency',
     img: '/static/images/ms-icon.png',
     notifMsg:
       'Alica SD Asesores Logícos Internacionales, C.A J-501200432'

@@ -109,7 +109,7 @@
                 </li>
               </scrollactive>
             </div>
-            <setting-menu :invert="invert" />
+            <!-- <setting-menu :invert="invert" /> -->
           </nav>
         </div>
       </v-container>
@@ -126,7 +126,7 @@ import logo from '~/static/images/alica.png'
 import link from '~/static/text/link'
 import brand from '~/static/text/brand'
 import navMenu from './menu'
-import Settings from './Settings'
+// import Settings from './Settings'
 import MobileMenu from './MobileMenu'
 import MarketPrice from './MarketPrice'
 
@@ -143,7 +143,7 @@ function createData(name, url, offset) {
 
 export default {
   components: {
-    'setting-menu': Settings,
+    // 'setting-menu': Settings,
     MobileMenu,
     MarketPrice
   },

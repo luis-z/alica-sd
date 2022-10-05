@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '../layouts/error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -13,22 +13,22 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_1b26db06 from 'nuxt_plugin_plugin_1b26db06' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_pluginutils_046b3d18 from 'nuxt_plugin_pluginutils_046b3d18' // Source: ./nuxt-i18n/plugin.utils.js (mode: 'all')
-import nuxt_plugin_pluginrouting_6ab861bf from 'nuxt_plugin_pluginrouting_6ab861bf' // Source: ./nuxt-i18n/plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_55920be0 from 'nuxt_plugin_pluginmain_55920be0' // Source: ./nuxt-i18n/plugin.main.js (mode: 'all')
-import nuxt_plugin_nuxtgooglemaps_835ff260 from 'nuxt_plugin_nuxtgooglemaps_835ff260' // Source: ./nuxt-google-maps.js (mode: 'all')
-import nuxt_plugin_nuxtmq_318bba22 from 'nuxt_plugin_nuxtmq_318bba22' // Source: ./nuxt-mq.js (mode: 'all')
-import nuxt_plugin_axios_371b20b2 from 'nuxt_plugin_axios_371b20b2' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ../plugins/vue-wow-config (mode: 'all')
-import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ../plugins/vue-fragment-config (mode: 'all')
-import nuxt_plugin_vuelightboxconfig_28f6899d from 'nuxt_plugin_vuelightboxconfig_28f6899d' // Source: ../plugins/vue-lightbox-config (mode: 'client')
-import nuxt_plugin_vueyoutubeconfig_52b5d649 from 'nuxt_plugin_vueyoutubeconfig_52b5d649' // Source: ../plugins/vue-youtube-config (mode: 'client')
-import nuxt_plugin_i18nconfig_ad306bc6 from 'nuxt_plugin_i18nconfig_ad306bc6' // Source: ../plugins/i18n-config.js (mode: 'all')
-import nuxt_plugin_carousselconfig_6e4e7344 from 'nuxt_plugin_carousselconfig_6e4e7344' // Source: ../plugins/caroussel-config (mode: 'client')
-import nuxt_plugin_vuescrollnav_65918480 from 'nuxt_plugin_vuescrollnav_65918480' // Source: ../plugins/vue-scroll-nav (mode: 'client')
-import nuxt_plugin_countupconfig_ca7ae10a from 'nuxt_plugin_countupconfig_ca7ae10a' // Source: ../plugins/countup-config (mode: 'client')
-import nuxt_plugin_vuetouchconfig_007c2ded from 'nuxt_plugin_vuetouchconfig_007c2ded' // Source: ../plugins/vue-touch-config (mode: 'client')
+import nuxt_plugin_plugin_7123584d from 'nuxt_plugin_plugin_7123584d' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginutils_bef4cff8 from 'nuxt_plugin_pluginutils_bef4cff8' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
+import nuxt_plugin_pluginrouting_4b80344f from 'nuxt_plugin_pluginrouting_4b80344f' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_6c1a9d00 from 'nuxt_plugin_pluginmain_6c1a9d00' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
+import nuxt_plugin_nuxtgooglemaps_103286ed from 'nuxt_plugin_nuxtgooglemaps_103286ed' // Source: .\\nuxt-google-maps.js (mode: 'all')
+import nuxt_plugin_nuxtmq_13ea9e32 from 'nuxt_plugin_nuxtmq_13ea9e32' // Source: .\\nuxt-mq.js (mode: 'all')
+import nuxt_plugin_axios_627edfaa from 'nuxt_plugin_axios_627edfaa' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ..\\plugins\\vue-wow-config (mode: 'all')
+import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ..\\plugins\\vue-fragment-config (mode: 'all')
+import nuxt_plugin_vuelightboxconfig_28f6899d from 'nuxt_plugin_vuelightboxconfig_28f6899d' // Source: ..\\plugins\\vue-lightbox-config (mode: 'client')
+import nuxt_plugin_vueyoutubeconfig_52b5d649 from 'nuxt_plugin_vueyoutubeconfig_52b5d649' // Source: ..\\plugins\\vue-youtube-config (mode: 'client')
+import nuxt_plugin_i18nconfig_ad306bc6 from 'nuxt_plugin_i18nconfig_ad306bc6' // Source: ..\\plugins\\i18n-config.js (mode: 'all')
+import nuxt_plugin_carousselconfig_6e4e7344 from 'nuxt_plugin_carousselconfig_6e4e7344' // Source: ..\\plugins\\caroussel-config (mode: 'client')
+import nuxt_plugin_vuescrollnav_65918480 from 'nuxt_plugin_vuescrollnav_65918480' // Source: ..\\plugins\\vue-scroll-nav (mode: 'client')
+import nuxt_plugin_countupconfig_ca7ae10a from 'nuxt_plugin_countupconfig_ca7ae10a' // Source: ..\\plugins\\countup-config (mode: 'client')
+import nuxt_plugin_vuetouchconfig_007c2ded from 'nuxt_plugin_vuetouchconfig_007c2ded' // Source: ..\\plugins\\vue-touch-config (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -96,7 +96,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"htmlAttrs":{"dir":"ltr"},"title":"Alica SD","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"description","content":"Asesores Logícos Internacionales J-501200432"},{"name":"msapplication-TileColor","content":"#FFFFFF"},{"name":"msapplication-TileImage","content":"\u002Ffavicons\u002Fms-icon.png"},{"name":"theme-color","content":"#5c6bc0"},{"property":"author","content":"luxi"},{"property":"og:site_name","content":"luxi.ux-maestro.com"},{"property":"og:locale","content":"es_ES"},{"property":"og:type","content":"website"},{"property":"twitter:site","content":"luxi.ux-maestro.com"},{"property":"twitter:domain","content":"luxi.ux-maestro.com"},{"property":"twitter:creator","content":"luxi"},{"property":"twitter:card","content":"summary"},{"property":"twitter:image:src","content":"\u002Fimages\u002Flogo.png"},{"property":"og:url","content":"veluxi.ux-maestro.com\u002Fagency"},{"property":"og:title","content":"Alica SD J-501200432"},{"property":"og:description","content":"Asesores Logícos Internacionales J-501200432"},{"name":"twitter:site","content":"veluxi.ux-maestro.com\u002Fagency"},{"name":"twitter:card","content":"summary_large_image"},{"name":"twitter:image","content":"\u002Fstatic\u002Fimages\u002Fms-icon.png"},{"property":"og:image","content":"\u002Fstatic\u002Fimages\u002Fms-icon.png"},{"property":"og:image:width","content":"1200"},{"property":"og:image:height","content":"630"}],"link":[{"rel":"shortcut icon","href":"\u002Ffavicons\u002Ffavicon.ico"},{"rel":"apple-touch-icon","sizes":"57x57","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"60x60","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"72x72","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"114x114","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"144x144","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"96x96","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"manifest","href":"\u002Ffavicons\u002Fmanifest.json"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto+Condensed:400,700&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"},{"rel":"stylesheet","href":"https:\u002F\u002Funpkg.com\u002Fionicons@3.0.0\u002Fdist\u002Fcss\u002Fionicons.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"htmlAttrs":{"dir":"ltr"},"title":"Alica SD","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"description","content":"Asesores Logícos Internacionales J-501200432"},{"name":"msapplication-TileColor","content":"#FFFFFF"},{"name":"msapplication-TileImage","content":"\u002Ffavicons\u002Fms-icon.png"},{"name":"theme-color","content":"#5c6bc0"},{"property":"author","content":"luxi"},{"property":"og:site_name","content":"luxi.ux-maestro.com"},{"property":"og:locale","content":"es_ES"},{"property":"og:type","content":"website"},{"property":"twitter:site","content":"luxi.ux-maestro.com"},{"property":"twitter:domain","content":"luxi.ux-maestro.com"},{"property":"twitter:creator","content":"luxi"},{"property":"twitter:card","content":"summary"},{"property":"twitter:image:src","content":"\u002Fimages\u002Flogo.png"},{"property":"og:url","content":undefined},{"property":"og:title","content":"Alica SD J-501200432"},{"property":"og:description","content":"Asesores Logícos Internacionales J-501200432"},{"name":"twitter:site","content":undefined},{"name":"twitter:card","content":"summary_large_image"},{"name":"twitter:image","content":"\u002Fstatic\u002Fimages\u002Fms-icon.png"},{"property":"og:image","content":"\u002Fstatic\u002Fimages\u002Fms-icon.png"},{"property":"og:image:width","content":"1200"},{"property":"og:image:height","content":"630"}],"link":[{"rel":"shortcut icon","href":"\u002Ffavicons\u002Ffavicon.ico"},{"rel":"apple-touch-icon","sizes":"57x57","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"60x60","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"72x72","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"114x114","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"144x144","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"96x96","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002Ffavicons\u002Fms-icon.png"},{"rel":"manifest","href":"\u002Ffavicons\u002Fmanifest.json"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto+Condensed:400,700&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"},{"rel":"stylesheet","href":"https:\u002F\u002Funpkg.com\u002Fionicons@3.0.0\u002Fdist\u002Fcss\u002Fionicons.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
 
     store,
     router,
@@ -225,32 +225,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_1b26db06 === 'function') {
-    await nuxt_plugin_plugin_1b26db06(app.context, inject)
+  if (typeof nuxt_plugin_plugin_7123584d === 'function') {
+    await nuxt_plugin_plugin_7123584d(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginutils_046b3d18 === 'function') {
-    await nuxt_plugin_pluginutils_046b3d18(app.context, inject)
+  if (typeof nuxt_plugin_pluginutils_bef4cff8 === 'function') {
+    await nuxt_plugin_pluginutils_bef4cff8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_6ab861bf === 'function') {
-    await nuxt_plugin_pluginrouting_6ab861bf(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_4b80344f === 'function') {
+    await nuxt_plugin_pluginrouting_4b80344f(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_55920be0 === 'function') {
-    await nuxt_plugin_pluginmain_55920be0(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_6c1a9d00 === 'function') {
+    await nuxt_plugin_pluginmain_6c1a9d00(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtgooglemaps_835ff260 === 'function') {
-    await nuxt_plugin_nuxtgooglemaps_835ff260(app.context, inject)
+  if (typeof nuxt_plugin_nuxtgooglemaps_103286ed === 'function') {
+    await nuxt_plugin_nuxtgooglemaps_103286ed(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtmq_318bba22 === 'function') {
-    await nuxt_plugin_nuxtmq_318bba22(app.context, inject)
+  if (typeof nuxt_plugin_nuxtmq_13ea9e32 === 'function') {
+    await nuxt_plugin_nuxtmq_13ea9e32(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_371b20b2 === 'function') {
-    await nuxt_plugin_axios_371b20b2(app.context, inject)
+  if (typeof nuxt_plugin_axios_627edfaa === 'function') {
+    await nuxt_plugin_axios_627edfaa(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuewowconfig_32ee3066 === 'function') {

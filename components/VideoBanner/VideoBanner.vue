@@ -99,7 +99,7 @@ export default {
   },
   data() {
     return {
-      videoId: 'rVlaEqmsDSY',
+      videoId: 'OsTMQqvfslc',
       playerVars: {
         autoplay: 1,
         controls: 0,

@@ -1,4 +1,4 @@
-import locale67ae66a0 from '../../static/lang/es-ES.js'
+import locale67ae66a0 from '../..\\static\\lang\\es-ES.js'
 
 export const Constants = {
   COMPONENT_OPTIONS_KEY: "nuxtI18n",
@@ -20,7 +20,7 @@ export const options = {
   sortRoutes: true,
   strategy: "prefix_except_default",
   lazy: true,
-  langDir: "/Users/luiszambrano/projects/alica-sd/static/lang",
+  langDir: "C:\\proyectos\\agency-theme\\static\\lang",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":true,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","redirectOn":"root","useCookie":true},
   differentDomains: false,
@@ -39,10 +39,10 @@ export const options = {
 
 export const localeMessages = {
   'es-ES.js': () => Promise.resolve(locale67ae66a0),
-  'ar-AR.js': () => import('../../static/lang/ar-AR.js' /* webpackChunkName: "lang-ar-AR.js" */),
-  'de-DE.js': () => import('../../static/lang/de-DE.js' /* webpackChunkName: "lang-de-DE.js" */),
-  'en-US.js': () => import('../../static/lang/en-US.js' /* webpackChunkName: "lang-en-US.js" */),
-  'id-ID.js': () => import('../../static/lang/id-ID.js' /* webpackChunkName: "lang-id-ID.js" */),
-  'pt-PT.js': () => import('../../static/lang/pt-PT.js' /* webpackChunkName: "lang-pt-PT.js" */),
-  'zh-ZH.js': () => import('../../static/lang/zh-ZH.js' /* webpackChunkName: "lang-zh-ZH.js" */),
+  'ar-AR.js': () => import('../..\\static\\lang\\ar-AR.js' /* webpackChunkName: "lang-ar-AR.js" */),
+  'de-DE.js': () => import('../..\\static\\lang\\de-DE.js' /* webpackChunkName: "lang-de-DE.js" */),
+  'en-US.js': () => import('../..\\static\\lang\\en-US.js' /* webpackChunkName: "lang-en-US.js" */),
+  'id-ID.js': () => import('../..\\static\\lang\\id-ID.js' /* webpackChunkName: "lang-id-ID.js" */),
+  'pt-PT.js': () => import('../..\\static\\lang\\pt-PT.js' /* webpackChunkName: "lang-pt-PT.js" */),
+  'zh-ZH.js': () => import('../..\\static\\lang\\zh-ZH.js' /* webpackChunkName: "lang-zh-ZH.js" */),
 }
